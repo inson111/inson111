@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Gordita;
+  src: url(assets/fonts/GorditaRegular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Gordita !important;
+}
+
+nav .right-btn {
+  display: flex;
+  height: 48px;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background-color: #00b871;
+  border: none;
+  color: #f4fbf7;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+
+.ecommerce {
+  background-color: #f4fbf7;
+  padding: 96px 0;
+  margin-top: 60px;
+}
+
+.ecommerce .card-box {
+  padding: 32px 24px;
+  cursor: pointer;
+}
+
+.ecommerce .card-box:hover {
+  border-radius: 8px;
+  background: var(--White, #fff);
+  box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+}
+
+.strategy {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.strategy h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #161e2e;
+  width: 500px;
+}
+
+.strategy .sub-h2 {
+  color: #161e2e;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.strategy .container .card-marketing {
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+  overflow: hidden;
+}
+.strategy .container .card-marketing img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.strategy .container .card-marketing .card-marketing-body {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.strategy .container .card-marketing .card-marketing-body .title {
+  color: #00b871;
+  font-weight: 400;
+}
+
+.strategy .container .card-marketing .card-marketing-body .head-title {
+  color: #161e2e;
+
+  /* H3 */
+  font-size: 24px;
+}
+
+.strategy .container .card-marketing .card-marketing-body .description {
+  color: var(--gray-400, #161e2e);
+
+  font-size: 14px;
+}
+.strategy .container .card-marketing .card-marketing-body button {
+  border-radius: 4px;
+  background: var(--primary-color-700, #00b871);
+  border: none;
+  display: flex !important;
+  padding: 16px 32px;
+  color: white;
+}
+
+.numbers {
+  margin: 40px;
+}
+
+.numbers .container .black-box {
+  background-color: #161e2e;
+  border-radius: 8px;
+  padding: 75px 86px;
+}
+
+.numbers .container .black-box h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.numbers .container .black-box h2:hover {
+  color: #00b871;
+  background-color: #fff;
+}
+
+.numbers .container .black-box .number-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.numbers .container .black-box .number-card img {
+  width: 64px;
+  height: 64px;
+}
+
+.numbers .container .black-box .number-card p {
+  margin: 0 !important;
+  color: white;
+  font-size: 48px;
+}
+
+.numbers .container .black-box .sub-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px; /* 155.556% */
+}
+
+@media screen and (max-width: 576px) {
+  .numbers .container .black-box {
+    padding: 24px;
+  }
+
+  .numbers .container .black-box h2 {
+    font-size: 24px;
+    margin-bottom: 29px;
+  }
+
+  .numbers .container .black-box .number-card p {
+    font-size: 32px;
+  }
+
+  .numbers .container .black-box .number-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+  .numbers .container .black-box .number-card img {
+    width: 48px;
+    height: 64px;
+  }
+
+  .numbers .container .black-box .sub-text {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .strategy h2 {
+    font-size: 24px;
+    color: #161e2e;
+    width: auto;
+  }
+}
